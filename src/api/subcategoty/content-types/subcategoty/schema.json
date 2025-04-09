@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subcategoties",
+  "info": {
+    "singularName": "subcategoty",
+    "pluralName": "subcategoties",
+    "displayName": "subcategoty",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::product.product",
+      "mappedBy": "subcategoties"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::catigory.catigory",
+      "inversedBy": "subcategoties"
+    }
+  }
+}

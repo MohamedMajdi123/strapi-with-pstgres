@@ -1,0 +1,3 @@
+postgresql://mohamed:CB81m93G7btrduudbxxAh7EHgqT9vY1g@dpg-cvqm6dre5dus73djm0o0-a.oregon-postgres.render.com/ecommerce_jcav
+
+postgresql://mohamed:CB81m93G7btrduudbxxAh7EHgqT9vY1g@dpg-cvqm6dre5dus73djm0o0-a/ecommerce_jcav
